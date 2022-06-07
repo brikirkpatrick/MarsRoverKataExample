@@ -1,6 +1,5 @@
-# README
-## Inspiration
-Inspiration for this repository can be found from the [Mars Rover kata](http://kata-log.rocks/mars-rover-kata)
+## Original Inspiration
+Inspiration for this KATA can be found from the [Mars Rover kata] Kata Logs site (http://kata-log.rocks/mars-rover-kata)
 
 ## Purpose
 This exercise is designed to give developers practice in the following:
