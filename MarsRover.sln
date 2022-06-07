@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRover", "MarsRover\MarsRover.csproj", "{9725E0D3-2CB5-4F2D-ACF0-AE4BFC361C9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRover.Domain", "MarsRover.Domain\MarsRover.Domain.csproj", "{CC2D074B-7033-46BE-A730-82E91B91AB49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRover.Domain.UnitTests", "MarsRover.Domain.UnitTests\MarsRover.Domain.UnitTests.csproj", "{872FC1D9-44C9-488E-B641-3162BF6DE855}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{7D171726-3731-4376-94DA-9208114C969C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRover.Services", "MarsRover.Services\MarsRover.Services.csproj", "{7F452B68-C673-421E-8678-947221D9C0E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRover.Services.UnitTests", "MarsRover.Services.UnitTests\MarsRover.Services.UnitTests.csproj", "{0E8F1A86-D4EB-4A22-B42B-216CEB2111F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTests", "IntegrationTests", "{C2068442-96C2-4E55-86BD-82E1C19C2FA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRover.Services.IntegrationTests", "MarsRover.Services.IntegrationTests\MarsRover.Services.IntegrationTests.csproj", "{F13CE37C-87E7-45E2-B8A9-A9027FDFCE77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9725E0D3-2CB5-4F2D-ACF0-AE4BFC361C9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9725E0D3-2CB5-4F2D-ACF0-AE4BFC361C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9725E0D3-2CB5-4F2D-ACF0-AE4BFC361C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9725E0D3-2CB5-4F2D-ACF0-AE4BFC361C9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC2D074B-7033-46BE-A730-82E91B91AB49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC2D074B-7033-46BE-A730-82E91B91AB49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC2D074B-7033-46BE-A730-82E91B91AB49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC2D074B-7033-46BE-A730-82E91B91AB49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{872FC1D9-44C9-488E-B641-3162BF6DE855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{872FC1D9-44C9-488E-B641-3162BF6DE855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{872FC1D9-44C9-488E-B641-3162BF6DE855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{872FC1D9-44C9-488E-B641-3162BF6DE855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F452B68-C673-421E-8678-947221D9C0E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F452B68-C673-421E-8678-947221D9C0E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F452B68-C673-421E-8678-947221D9C0E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F452B68-C673-421E-8678-947221D9C0E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E8F1A86-D4EB-4A22-B42B-216CEB2111F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E8F1A86-D4EB-4A22-B42B-216CEB2111F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E8F1A86-D4EB-4A22-B42B-216CEB2111F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E8F1A86-D4EB-4A22-B42B-216CEB2111F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F13CE37C-87E7-45E2-B8A9-A9027FDFCE77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13CE37C-87E7-45E2-B8A9-A9027FDFCE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13CE37C-87E7-45E2-B8A9-A9027FDFCE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13CE37C-87E7-45E2-B8A9-A9027FDFCE77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{872FC1D9-44C9-488E-B641-3162BF6DE855} = {7D171726-3731-4376-94DA-9208114C969C}
+		{0E8F1A86-D4EB-4A22-B42B-216CEB2111F4} = {7D171726-3731-4376-94DA-9208114C969C}
+		{F13CE37C-87E7-45E2-B8A9-A9027FDFCE77} = {C2068442-96C2-4E55-86BD-82E1C19C2FA1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C976EEA9-B417-4018-AA63-A61039DC8533}
+	EndGlobalSection
+EndGlobal
